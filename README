@@ -2,21 +2,20 @@
 
 ## Aims:
 
-We investigated behavioral and neural mechanisms for modulating loss aversion.
+We investigated how couples interacted to do the online-shopping task in the fMRI.
 
 ## Methods
 
-*Behavior task:* We adapted the gambling task (Tom et al., 2007) by introducing contexts and feedback that encourage participants to take more or less loss averse choices.
-
-*fMRI:* We used general linear model to find brain activation that correlates with magnitude of potential gains or potential losses during the learning and post-learning probe. We also used psychophysiological interaction analysis (independent seeded at vmPFC) to identified the brain areas showing interaction with vmPFC over the course of training.
+*fMRI:* This fMRI study investigated the shopping interactions of 30 college couples, one lying inside and the other outside the scanner, beholding the same item from two connected PCs, making preference ratings and subsequent buy/not-buy decisions.
 
 ## General findings and importance:
 
-Training primarily modulated behavioral and neural sensitivity toward potential gains, and was reflected in connectivity between regions involved in cognitive control and those involved in value representation. These findings highlight the importance of experience in development of biases in decision-making.
+The behavioral results showed the clear modulation of significant others’ preferences onto one’s own decisions, and the contrast of the “shop-together vs. shop-alone”, and the “congruent (both liked or disliked the item, 68%) vs. incongruent (one liked but the other disliked, and vice versa)” together trials, both revealed bilateral temporal parietal junction (TPJ) among other reward-related regions, likely reflecting mentalizing during preference harmony. Moreover, when contrasting “own-high/other-low vs. own-low/other-high” incongruent trials, left anterior inferior parietal lobule (l-aIPL) was parametrically mapped, and the “yield (e.g., own-high/not-buy) vs. insist (e.g., own-low/not-buy)” modulation further revealed left lateral-IPL (l-lIPL), together with left TPJ forming a local social decision network that was further constrained by the mediation analysis among left TPJ-lIPL-aIPL.
 
 ## Sample Size
 
-Sixty human participants completed the behavioral paradigm in the MRI scanner (31 females, 29 males; age range: 18 - 30 with mean 22.9-year-old). Two participants were discarded from the brain imaging analyses; one due to a missing anatomical image, and the other due to excessive head movement (more than one-third of the volumes were considered “bad time points” according to the motion correction procedures detailed in the Preprocessing section).
+Thirty human participants completed the behavioral paradigm in the MRI scanner (16 males; mean age=22.7±2.57 yrs, out of the 19 participating
+couples).
 
 
 ### Comments added by Openfmri Curators ###
@@ -26,23 +25,10 @@ General Comments
 ----------------
 
 
-Defacing
---------
-Pydeface was used on all anatomical images to ensure deindentification of subjects. The code
-can be found at https://github.com/poldracklab/pydeface
-
-Quality Control
----------------
-Mriqc was run on the dataset. Results are located in derivatives/mriqc. Learn more about it here: https://mriqc.readthedocs.io/en/latest/
-
 Where to discuss the dataset
 ----------------------------
 1) www.openfmri.org/dataset/ds******/ See the comments section at the bottom of the dataset
 page.
-2) www.neurostars.org Please tag any discussion topics with the tags openfmri and dsXXXXXX
-accession number.
-3) Send an email to submissions@openfmri.org. Please include the dsXXXXXX accession number in
-your email.
 
 Known Issues
 ------------
