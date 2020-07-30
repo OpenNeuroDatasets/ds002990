@@ -1,4 +1,4 @@
-onset	duration	normalized_rt	missing_trials	gain	loss	client	investment_suggestion	feedback
+onset	duration	trial_type	self_rating	other_rating	self_rating_rt	self_buy	decision_time	
 1.252	3.1113	0.6617	0	-8.9375	16.8333	client_1	accept	positive
 13.252	3.1113	-0.1243	0	4.0625	10.8333	client_2	accept	positive
 22.752	3.1113	0.1327	0	-6.9375	-4.1667	client_1	reject	positive
